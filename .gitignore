@@ -1,6 +1,9 @@
 # Local .terraform directories
 **/.terraform/*
 
+#This is used to bootstrap TFC workspaces for the purposes of the demo. Don't want any of it in VCS.
+**/bootstrap/*
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
