@@ -19,5 +19,6 @@ module "vpc" {
     Owner = "Cameron Huysmans"
     Environment = "dev"
     TTL = "8"
+    demo = "yes"
   }
 }
